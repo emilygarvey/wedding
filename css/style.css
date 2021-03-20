@@ -1,36 +1,36 @@
 body {
-    font-family: 'Noto Sans', sans-serif;
-    height: 1000px;
+  font-family: "Noto Sans", sans-serif;
+  height: 1000px;
 }
-.links, .header {
-    display:flex;
-    justify-content:center;
+.header {
+  text-align: center;
 }
 .social {
-    width: 30px;
-    margin: 10px;
+  width: 30px;
+  margin: 10px;
 }
-#emily {
-    width: 25%;
+#us {
+  width: 25%;
+  text-align: center;
 }
 h1 {
-    text-align: center;
+  text-align: center;
 }
 .column {
-    display:flex;
-    justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
 }
-.reads .likes {
-    width: 50%;
+.details .about {
+  width: 50%;
 }
 h2 {
-    text-align: center;
+  text-align: center;
 }
-.accordian{
-    width: 400px;
-    word-wrap: break-word !important;
-    white-space: normal;
+.accordian {
+  width: 400px;
+  word-wrap: break-word !important;
+  white-space: normal;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
