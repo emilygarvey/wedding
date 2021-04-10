@@ -1,6 +1,6 @@
 body {
   font-family: "Noto Sans", sans-serif;
-  height: 1000px;
+  height: 1300px;
 }
 img {
   max-width: 300px;
@@ -15,25 +15,46 @@ img {
 #us {
   width: 25%;
   text-align: center;
+  border: 2px solid black;
 }
 h1 {
   text-align: center;
 }
 .column {
-  display: flex;
-  justify-content: space-around;
-}
-.details .about {
+  /* display: flex;
+  justify-content: space-around; */
+  text-align: center;
+  margin: auto;
   width: 50%;
 }
-h2 {
+.details,
+.about,
+.footer,
+.header {
+  margin: 30px 0px;
+}
+h2,
+p {
   text-align: center;
 }
 .accordian {
-  width: 400px;
+  width: 500px;
   word-wrap: break-word !important;
   white-space: normal;
+  margin: auto;
 }
-a {
+a,
+.btn {
   text-decoration: none;
+  color: #bab86c;
+}
+
+a:hover,
+.btn:hover {
+  text-decoration: underline;
+  color: #bab86c;
+}
+
+.card-header {
+  background-color: #00008b;
 }
