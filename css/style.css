@@ -1,6 +1,7 @@
 body {
   font-family: "Noto Sans", sans-serif;
   height: 1300px;
+  background-color: #9ba17b;
 }
 img {
   max-width: 300px;
@@ -46,13 +47,13 @@ p {
 a,
 .btn {
   text-decoration: none;
-  color: #bab86c;
+  color: #9ba17b;
 }
 
 a:hover,
 .btn:hover {
   text-decoration: underline;
-  color: #bab86c;
+  color: #9ba17b;
 }
 
 .card-header {
